@@ -2,11 +2,23 @@
     font-family: monospace
 }
 
+#main-card {
+    background-color: grey;
+    margin: auto;
+    padding: 8px;
+    max-width: 400px;
+}
+
 .page-title {
     background-color: yellow;
     color: black;
     text-align: center;
     text-decoration: underline;
+    margin: 0 0 8px 0;
+}
+
+#recipes-list {
+    list-style-type: none;
 }
 
 .recipe-link {
@@ -14,21 +26,10 @@
     background-color: red;
     text-decoration: none;
     font-size: 40px;
+    margin-left: -16px;
 }
 
 #lasagna-link {
     color: red;
     background-color: blue;
 }
-
-.recipe-image {
-    width: auto;
-    height: 400px;
-}
-
-.recipe-description {
-    color: red;
-    font-size: 20px;
-}
-
-.in
